@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: auto;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(qq.jpg);
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    
+}
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo
+{
+    color:rgb(225, 124, 65);
+    font-size: 35px;
+    font-family: 'Lucida Sans';
+    padding-left: 570px;
+    float: left;
+    padding-top: 12px; 
+    text-align: center;
+}
+.menu{
+    width: 2000px;
+    float: center;
+    height: 70px;
+    flex: auto;
+    padding-bottom: 70px;
+    
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 14px;
+   
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #200536;
+}
+
+.aboutme{
+    padding-top: 30px;
+    text-align: center;
+    flex: auto;
+    color: aqua;
+    margin-top: 80px;
+}
+
+.cr
+{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+   background-color: wheat;
+    float: left;
+}.navbar1
+{width: px;
+height: 75px;
+margin: auto;
+
+}
+.head{
+    color: black;
+    font-size: 15px;
+    font-family: Arial;
+    padding-left: 570px;
+    float: left;
+    padding-top: 12px;
+    text-align: center;
+}
+.details
+{
+    color:black;
+    font-size: 15px;
+    font-family:Arial;
+    width: 2000px;
+    float: center;
+    height: 200px;
+    flex:auto;
+    padding-top: 100px;
+    padding-left: 110px;
+}
+.para
+{
+    padding-bottom: 150px;
+    text-align: center;
+    padding-left: 400px;
+    
+}
+.photo
+{
+    width: 10px;  
+    height: auto;  
+    text-align: center;  
+    padding: 15px;  
+    object-fit: cover;
+}
+.menu2{
+    width: 2000px;
+    float: center;
+    height: 70px;
+    flex: auto;
+    font-size: xx-large;
+    text-align: center;
+    font-style:italic;
+    margin:2cm;
+}
+
+ul li a:hover{
+    color: brown;
+}
+.mar{
+    font-style: italic;
+    color: sandybrown;
+}
+.details:hover{
+    color: blue;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 40px;
+  text-align: left;
+  text-decoration: none;
+  margin: 0px 40px;
+  padding-top: 5px;
+  padding-left: 8%;
+  position: relative;left: -90px; top :-40px;
+}
+
+.fa:hover {
+    opacity: 0.8;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: palevioletred;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-github {
+    background: rgb(0, 0, 0);
+    color: white;
+  }
+    .abo:hover{
+        color: white;
+    }
+    .abo{
+        text-align: center;
+        font-size: xx-large;
+    }
+    .me{
+        padding-top: 40px;
+        font-size:x-large;
+        
+    }
+   .pro{
+    font-style: italic;
+    width: 100%;
+    height: 109vh;
+    text-align: center;
+    font-size: xx-large;
+   }
